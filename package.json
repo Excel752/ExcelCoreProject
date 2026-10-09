@@ -1,0 +1,16 @@
+{
+  "name": "excel-core-project-bot",
+  "version": "0.2.0",
+  "private": true,
+  "description": "ECP Slack bot - start/end report matching and formatter output",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.0.0"
+  }
+}
